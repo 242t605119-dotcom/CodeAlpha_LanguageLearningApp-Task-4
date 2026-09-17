@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Language Learning App</h1>
+        <p class="subtitle">Learn new words and test your knowledge</p>
+
+        <div class="category-box">
+            <button class="category active">Greetings</button>
+            <button class="category">Food</button>
+            <button class="category">Travel</button>
+            <button class="category">Daily Life</button>
+        </div>
+
+        <div class="flashcard">
+
+            <h2 id="word">Hello</h2>
+
+            <p id="translation">Select an option first</p>
+
+            <button id="showAnswer" disabled>
+                Show Answer
+            </button>
+
+        </div>
+
+        <div class="navigation">
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+        </div>
+
+        <div class="quiz-box">
+
+            <h2>Quick Quiz</h2>
+
+            <p id="score">Score: 0</p>
+
+            <p id="quizQuestion">
+                What is the meaning of "Hello"?
+            </p>
+
+            <div id="quizOptions"></div>
+
+            <p id="quizResult"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
